@@ -1,7 +1,5 @@
 # Research instructions
 
-This repository owns one campaign: [3-SAT → Mixed-layout recognition of 2-trees](campaigns/two-tree-mixed-layout-recognition/question.md). Read its [state](campaigns/two-tree-mixed-layout-recognition/state.md) before work.
+Read the [fixed question](campaigns/two-tree-mixed-layout-recognition/question.md), [prior state](campaigns/two-tree-mixed-layout-recognition/state.md) and [preparation notes](campaigns/two-tree-mixed-layout-recognition/work/preparation.md). The fixed [test corpus](campaigns/two-tree-mixed-layout-recognition/work/cases.json) and [verifier](campaigns/two-tree-mixed-layout-recognition/work/check.py) are the starting evidence; the preparation notes state their coverage and any pending checks.
 
-Use the copied `.agents/skills/research-prepare/SKILL.md` and `research/` specifications. Make only evidence-backed claims, commit preparation before construction, and retain failed checks. No construction rounds are authorized by this setup task.
-
-The source question board is at `/Users/xiweipan/Codes/autoresearch-gadgets`. Its shared experience entries stay there; do not copy them into this repository. Use uv and a committed lockfile when Python dependencies are needed.
+Run `uv sync --locked`, then `uv run --locked python campaigns/two-tree-mixed-layout-recognition/work/check.py --self-test` before relying on that evidence. Follow the current user's AutoResearch pipeline. Scope and budgets in the state describe earlier work and do not limit a new campaign. Preserve prior evidence, commit new work incrementally and make only evidence-backed claims.

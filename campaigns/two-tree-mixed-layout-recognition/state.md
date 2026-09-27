@@ -2,7 +2,7 @@
 
 Status: Prepare partial; the finite target fixtures lack a NO-SOLUTION 2-tree. No reduction or solution is claimed.
 
-Scope: independent testing foundation only. Round budget: 0 construction rounds authorized in this setup task.
+Initial setup: this pass built the testing foundation and ran no construction rounds. Future work follows the current user's scope and pipeline.
 
 Capability probe: CPython 3.12.14, locked `z3-solver` 4.16.0.0. SAT and 2-tree layout encodings passed direct witness validation and finite exhaustive crosschecks. No target negative instance is yet in the finite fixture set. See [preparation.md](work/preparation.md).
 
