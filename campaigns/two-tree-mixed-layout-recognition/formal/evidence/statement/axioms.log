@@ -1,0 +1,2 @@
+'TwoTreeMixedLayoutRecognition.Goal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoTreeMixedLayoutRecognition.solve' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

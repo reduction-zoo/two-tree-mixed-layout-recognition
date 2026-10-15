@@ -1,0 +1,7 @@
+{
+  "id": "Q051",
+  "source_definition": "A source instance is an explicitly encoded Boolean formula with at most three literals per clause. Its outputs are satisfying Boolean assignments, or NO-SOLUTION when the formula is unsatisfiable.",
+  "target_definition": "The target must be a 2-tree and asks for a vertex order with one stack and one queue. Independent stack edges may not alternate and independent queue edges may not nest. A 2-tree starts from an edge and repeatedly adds a vertex adjacent to both endpoints of an existing edge.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
